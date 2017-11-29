@@ -13,6 +13,7 @@ Steps:
       a)Open cron tab - type code 'crontab -e' in terminal </b>
       b)Then in crontab copy and paste the code at end of code </b>
       c)Save it </b>
+
 Here we are setting a 50 min interval.    </b>   
   ...
   */50 * * * * /path/to/eye.sh > /dev/null 2>&1. </br>
