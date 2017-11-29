@@ -9,7 +9,7 @@ Steps:
   1.Clone this repo or download relax.sh file.</br>
   2.Make the relax.sh file executable using chmod +x /path/to/eye.sh. </br>
   
- <b> Then set cron tab to execute this file in regular intervals.</b>
+ <b> Then set cron tab to execute this file in regular intervals</b>.</b>
       *Open cron tab - type code 'crontab -e' in terminal </b>
       *Then in crontab copy and paste the code at end of code </b>
       *Save it </b>
