@@ -8,9 +8,16 @@ Steps:
   
   1.Clone this repo or download relax.sh file.</br>
   2.Make the relax.sh file executable using chmod +x /path/to/eye.sh. </br>
-  3.Set a cron to eye.sh for 20 mins interval using */50 * * * * /path/to/eye.sh > /dev/null 2>&1. </br>
-
-That's it.
+  
+ <b> Then set cron tab to execute this file in regular intervals.</b>
+      *Open cron tab - type code 'crontab -e' in terminal
+      *Then in crontab copy and paste the code at end of code
+      *Save it
+Here we are setting a 50 min interval.      
+  ...
+  */50 * * * * /path/to/eye.sh > /dev/null 2>&1. </br>
+  ...
+That's it.</br>
 Contributors:
 
 [Gaius Mathew](http://bugcoder.cf)
