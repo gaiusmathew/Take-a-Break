@@ -15,9 +15,9 @@ Steps:
       c)Save it <br>
 
 Here we are setting a 50 min interval.    <br>   
-  ...
+ ```
   */50 * * * * /path/to/eye.sh > /dev/null 2>&1. <br>
-  ...
+  ```
 That's it.<br>
 Contributors: <br>
 
