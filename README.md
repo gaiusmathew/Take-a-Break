@@ -10,9 +10,9 @@ Steps:
   2.Make the relax.sh file executable using chmod +x /path/to/eye.sh. <br>
   
  <b> Then set cron tab to execute this file in regular intervals</b>.<br>
-      a)Open cron tab - type code 'crontab -e' in terminal <br>
-      b)Then in crontab copy and paste the code at end of code <br>
-      c)Save it <br>
+        a)Open cron tab - type code 'crontab -e' in terminal <br>
+        b)Then in crontab copy and paste the code at end of code <br>
+        c)Save it <br>
 
 Here we are setting a 50 min interval.    <br>   
  ```
