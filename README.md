@@ -7,7 +7,7 @@ Installation:
 Steps:
   
   1.Clone this repo or download [relax.sh file](https://github.com/gaiusmathew/Take-a-Break/blob/master/relax.sh)<br>
-  2.Make the relax.sh file executable using chmod +x /path/to/eye.sh. <br>
+  2.Make the relax.sh file executable using chmod +x /path/to/relax.sh. <br>
   
  <b> Then set cron tab to execute this file in regular intervals</b>.<br>
         a)Open cron tab by typing code 'crontab -e' in terminal <br>
@@ -16,10 +16,10 @@ Steps:
 
 Here we are setting a 50 min interval.    <br>   
  ```
-  */50 * * * * /path/to/eye.sh > /dev/null 2>&1. <br>
+  */50 * * * * /path/to/relax.sh > /dev/null 2>&1. <br>
   ```
 That's it.<br>
 Contributors: <br>
 
-[Gaius Mathew](http://bugcoder.cf)
+[Gaius Mathew](http://kiwis.io)
 
