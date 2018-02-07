@@ -6,7 +6,7 @@ Installation:
 
 Steps:
   
-  1.Clone this repo or download [elax.sh file](https://github.com/gaiusmathew/Take-a-Break/blob/master/relax.sh)<br>
+  1.Clone this repo or download [relax.sh file](https://github.com/gaiusmathew/Take-a-Break/blob/master/relax.sh)<br>
   2.Make the relax.sh file executable using chmod +x /path/to/eye.sh. <br>
   
  <b> Then set cron tab to execute this file in regular intervals</b>.<br>
